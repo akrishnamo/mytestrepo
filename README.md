@@ -63,3 +63,5 @@ Fill me in please! Don’t forget code examples:
 ``` python
 foo(3)
 ```
+
+    3
