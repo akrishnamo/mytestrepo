@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="127pt" height="260pt" viewBox="0.00 0.00 127.00 260.00">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 256)">
+<title>%3</title>
+<polygon fill="white" stroke="transparent" points="-4,4 -4,-256 123,-256 123,4 -4,4"/>
+<!-- A -->
+<g id="node1" class="node">
+<title>A</title>
+<ellipse fill="none" stroke="black" cx="82" cy="-234" rx="27" ry="18"/>
+<text text-anchor="middle" x="82" y="-230.3" font-family="Times,serif" font-size="14.00">A</text>
+</g>
+<!-- B -->
+<g id="node2" class="node">
+<title>B</title>
+<ellipse fill="none" stroke="black" cx="27" cy="-162" rx="27" ry="18"/>
+<text text-anchor="middle" x="27" y="-158.3" font-family="Times,serif" font-size="14.00">B</text>
+</g>
+<!-- A&#45;&#45;B -->
+<g id="edge1" class="edge">
+<title>A--B</title>
+<path fill="none" stroke="black" d="M70.07,-217.81C60.84,-206.07 48.13,-189.89 38.91,-178.16"/>
+</g>
+<!-- C -->
+<g id="node3" class="node">
+<title>C</title>
+<ellipse fill="none" stroke="black" cx="65" cy="-90" rx="27" ry="18"/>
+<text text-anchor="middle" x="65" y="-86.3" font-family="Times,serif" font-size="14.00">C</text>
+</g>
+<!-- A&#45;&#45;C -->
+<g id="edge3" class="edge">
+<title>A--C</title>
+<path fill="none" stroke="black" d="M79.95,-215.87C76.68,-188.58 70.33,-135.52 67.06,-108.19"/>
+</g>
+<!-- D -->
+<g id="node4" class="node">
+<title>D</title>
+<ellipse fill="none" stroke="black" cx="92" cy="-18" rx="27" ry="18"/>
+<text text-anchor="middle" x="92" y="-14.3" font-family="Times,serif" font-size="14.00">D</text>
+</g>
+<!-- A&#45;&#45;D -->
+<g id="edge2" class="edge">
+<title>A--D</title>
+<path fill="none" stroke="black" d="M86.25,-216.12C93.11,-186.84 105.44,-124.73 101,-72 99.98,-59.91 97.68,-46.43 95.65,-36.09"/>
+</g>
+<!-- B&#45;&#45;C -->
+<g id="edge4" class="edge">
+<title>B--C</title>
+<path fill="none" stroke="black" d="M35.81,-144.76C41.95,-133.46 50.11,-118.44 56.23,-107.15"/>
+</g>
+<!-- C&#45;&#45;D -->
+<g id="edge5" class="edge">
+<title>C--D</title>
+<path fill="none" stroke="black" d="M71.4,-72.41C75.64,-61.41 81.19,-47.03 85.46,-35.96"/>
+</g>
+</g>
+</svg>

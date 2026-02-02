@@ -1,0 +1,52 @@
+[
+  {
+    "objectID": "core.html",
+    "href": "core.html",
+    "title": "Bore",
+    "section": "",
+    "text": "source\n\nfoo\n\ndef foo(\n    a:int\n):\n\n\nimport networkx as nx\nfrom IPython.display import display, SVG\nimport io\n# Use graphviz Python package to render\nimport graphviz\n\n\n# Create a small graph\nG = nx.Graph()\nG.add_edges_from([\n    ('A', 'B'),\n    ('B', 'C'),\n    ('C', 'D'),\n    ('D', 'A'),\n    ('A', 'C')\n])\n\n# Generate DOT format string\ndot_string = nx.nx_pydot.to_pydot(G).to_string()\n# print(\"DOT format:\")\n# print(dot_string)\n\n\ndot = graphviz.Source(dot_string)\ndot.format = 'svg'\ndisplay(SVG(dot.pipe()))",
+    "crumbs": [
+      "Bore"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "mytestrepo",
+    "section": "",
+    "text": "This file will become your README and also the index of your documentation.",
+    "crumbs": [
+      "mytestrepo"
+    ]
+  },
+  {
+    "objectID": "index.html#developer-guide",
+    "href": "index.html#developer-guide",
+    "title": "mytestrepo",
+    "section": "Developer Guide",
+    "text": "Developer Guide\nIf you are new to using nbdev here are some useful pointers to get you started.\n\nInstall mytestrepo in Development mode\n# make sure mytestrepo package is installed in development mode\n$ pip install -e .\n\n# make changes under nbs/ directory\n# ...\n\n# compile to have changes apply to mytestrepo\n$ nbdev_prepare",
+    "crumbs": [
+      "mytestrepo"
+    ]
+  },
+  {
+    "objectID": "index.html#usage",
+    "href": "index.html#usage",
+    "title": "mytestrepo",
+    "section": "Usage",
+    "text": "Usage\n\nInstallation\nInstall latest from the GitHub repository:\n$ pip install git+https://github.com/akrishnamo/mytestrepo.git\nor from conda\n$ conda install -c akrishnamo mytestrepo\nor from pypi\n$ pip install mytestrepo\n\n\nDocumentation\nDocumentation can be found hosted on this GitHub repository’s pages. Additionally you can find package manager specific guidelines on conda and pypi respectively.",
+    "crumbs": [
+      "mytestrepo"
+    ]
+  },
+  {
+    "objectID": "index.html#how-to-use",
+    "href": "index.html#how-to-use",
+    "title": "mytestrepo",
+    "section": "How to use",
+    "text": "How to use\nFill me in please! Don’t forget code examples:\n\nfoo(3)\n\n3",
+    "crumbs": [
+      "mytestrepo"
+    ]
+  }
+]
